@@ -4,7 +4,7 @@ function App() {
       <div className="px-[100px] mt-[100px] flex justify-between text-xl text-[#ffffff]">
         <div className="flex items-center gap-[10px]">
           <img
-            src="public/image/SH.png"
+            src="image/SH.png"
             alt="logo"
             className="h-16 rounded-full"
           />
@@ -18,7 +18,7 @@ function App() {
         </div>
         <div className="lg:hidden flex ">
           <button className="relative">
-            <img src="../public/image/menu.svg" alt="" />
+            <img src="image/menu.svg" alt="" />
             <div className="absolute px-[20px] -translate-x-full w-[254px] h-[437px] rounded-[50px] justify-between py-[40px] text-[#042851] flex flex-col bg-white/40">
               <button className="h-1/5 bg-[#D9D9D9] rounded-[50px]">Home</button>
               <button className="h-1/5 bg-[#D9D9D9] rounded-[50px]">My Profile</button>
@@ -30,7 +30,7 @@ function App() {
       </div>
       <div className="flex items-center lg:flex-row flex-col lg:px-[100px] lg:gap-[200px] gap-[50px] w-full">
         <img
-          src="public/image/me.jpg"
+          src="image/me.jpg"
           alt="profile"
           className="w-min-[250px] w-max-[250px] h-[300px] rounded-[50px]"
         />
